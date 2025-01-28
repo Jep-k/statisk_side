@@ -1,0 +1,15 @@
+/* index */
+.category_list_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.category {
+  text-align: center;
+  background-color: black;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: bisque;
+  border-radius: 0.5rem;
+}
