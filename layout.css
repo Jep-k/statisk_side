@@ -1,3 +1,8 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* index */
 .category_list_container {
   display: grid;
@@ -12,4 +17,65 @@
   text-decoration: none;
   color: bisque;
   border-radius: 0.5rem;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+
+/* produktsite */
+
+.produktliste_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 10%;
+  gap: 1rem;
+  background-color: rgb(115, 115, 117);
+}
+
+.produkt {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.textfelt {
+  position: relative;
+}
+
+.tilbud {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: yellow;
+  opacity: 0.8;
+}
+.sold_out {
+  opacity: 0.4;
+}
+
+.sold_out_skilt {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* produkt */
+
+.produktet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20%;
+}
+
+.tekt_pro {
+  display: grid;
+  grid-template-columns: subgrid;
 }

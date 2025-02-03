@@ -1,6 +1,11 @@
 /* index */
 
-.index_knap {
-  text-decoration: none;
-  color: bisque;
+/* produktliste */
+
+.tilbud {
+  background-color: brown;
+}
+
+.produkt {
+  background-color: rgb(255, 255, 255);
 }
